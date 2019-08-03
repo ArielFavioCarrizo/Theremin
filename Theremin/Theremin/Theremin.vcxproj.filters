@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="GPIO.cpp" />
+    <ClCompile Include="DistanceSensorReader.cpp">
+      <Filter>DistanceSensor</Filter>
+    </ClCompile>
+    <ClCompile Include="DistanceSensorConfiguration.cpp">
+      <Filter>DistanceSensor</Filter>
+    </ClCompile>
+    <ClCompile Include="Cont.cpp">
+      <Filter>CPS</Filter>
+    </ClCompile>
+    <ClCompile Include="CPSSched.cpp">
+      <Filter>CPS</Filter>
+    </ClCompile>
+    <ClCompile Include="ThereminUserInput.cpp">
+      <Filter>Theremin</Filter>
+    </ClCompile>
+    <ClCompile Include="DistanceSensorSynchronizedContext.cpp">
+      <Filter>DistanceSensor</Filter>
+    </ClCompile>
+    <ClCompile Include="ThereminSystem.cpp">
+      <Filter>Theremin</Filter>
+    </ClCompile>
+    <ClCompile Include="ThereminSynthesizer.cpp">
+      <Filter>Theremin</Filter>
+    </ClCompile>
+    <ClCompile Include="SignalLinearFilter.cpp">
+      <Filter>Signal</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GPIO.h" />
+    <ClInclude Include="Timestamped.h" />
+    <ClInclude Include="DistanceSensorReader.h">
+      <Filter>DistanceSensor</Filter>
+    </ClInclude>
+    <ClInclude Include="DistanceSensorConfiguration.h">
+      <Filter>DistanceSensor</Filter>
+    </ClInclude>
+    <ClInclude Include="Cont.h">
+      <Filter>CPS</Filter>
+    </ClInclude>
+    <ClInclude Include="CPSSched.h">
+      <Filter>CPS</Filter>
+    </ClInclude>
+    <ClInclude Include="ThereminUserInput.h">
+      <Filter>Theremin</Filter>
+    </ClInclude>
+    <ClInclude Include="SynchronizedVariable.h">
+      <Filter>Concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="DistanceSensorSynchronizedContext.h">
+      <Filter>DistanceSensor</Filter>
+    </ClInclude>
+    <ClInclude Include="ThereminSystem.h">
+      <Filter>Theremin</Filter>
+    </ClInclude>
+    <ClInclude Include="ThereminSynthesizer.h">
+      <Filter>Theremin</Filter>
+    </ClInclude>
+    <ClInclude Include="SignalLinearFilter.h">
+      <Filter>Signal</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DistanceSensor">
+      <UniqueIdentifier>{89c37efd-75f7-4b31-90b8-d9050cb72888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPS">
+      <UniqueIdentifier>{307c7f87-0a0f-44cd-a621-52e83a6d9afd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Theremin">
+      <UniqueIdentifier>{e9401c98-7100-423c-a2b1-6a394e2da4e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Concurrency">
+      <UniqueIdentifier>{dd23affb-ab87-49af-95f6-5e16ef1576b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Signal">
+      <UniqueIdentifier>{bf22fd12-7527-4c98-8a57-11b76b556ecb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
